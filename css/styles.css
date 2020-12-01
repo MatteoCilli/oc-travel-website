@@ -13,6 +13,10 @@ header {
     justify-content: space-between;
 }
 
+span {
+    font-weight: bold;
+}
+
 #logo {
     height: 71px;
 }
@@ -231,8 +235,9 @@ input[type='text'] {
 }
 
 img {
-    width: 200px;
+    width: 260px;
     max-height: 133px;
+    border-radius: 24px 24px 0 0;
 }
 
 .left {
@@ -242,31 +247,190 @@ img {
     flex: 0.6;
     background-color: aliceblue;
     padding: 26px;
+    border-radius: 24px;
 }
 
 .right {
     flex: 0.3;
     background-color: aliceblue;
     padding: 26px;
-}
-
-.upper-left>h2:nth-child(1) {
-    margin-left: 28px;
+    border-radius: 24px;
 }
 
 .central-left {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .accomodations-card {
+    display: block;
+    background-color: white;
+    height: 220px;
+    margin: 20px;
+    padding: 7px;
+    border-radius: 24px;
+    box-shadow: 0px 8px 19px 2px gray;
+}
+
+.hh3 {
+    position: relative;
+    bottom: 14px;
+}
+
+.hh4 {
+    position: relative;
+    bottom: 28px;
+    font-weight: 100;
+}
+
+.stars {
+    position: relative;
+    bottom: 39px;
+}
+
+.fas1 {
+    color: #0069fb;
+}
+
+.fas2 {
+    color: #c0d0e9;
+}
+
+.ac-h {
+    margin-left: 28px;
+}
+
+.upper-right {
+    display: block ruby;
+}
+
+.fa-chart-line {
+    margin-left: 325px;
+}
+
+.accomodations-card-r {
+    display: block;
+    background-color: white;
+    height: 152px;
+    margin: 30px;
+    padding: 4px;
+    border-radius: 24px;
+    box-shadow: 0px 8px 19px 2px gray;
+}
+
+.acr-img {
+    float: left;
+    width: 170px;
+    margin-top: 9px;
+    height: 140px;
+    border-radius: 24px 0 0 24px;
+}
+
+.hh3-r {
+    position: relative;
+    bottom: 4px;
+    left: 30px;
+}
+
+.hh4-r {
+    position: relative;
+    left: 30px;
+    font-weight: 100;
+}
+
+.stars-r {
+    position: relative;
+    bottom: -24px;
+    left: 30px;
+}
+
+#lone-star {
+    bottom: -4px;
+}
+
+.intro {
+    grid-area: intro;
+    text-align: initial;
+}
+
+.grid-element1 {
+    grid-area: grid-element1;
+}
+
+.grid-element2 {
+    grid-area: grid-element2;
+}
+
+.grid-element3 {
+    grid-area: grid-element3;
+}
+
+.grid-element4 {
+    grid-area: grid-element4;
+}
+
+.grid-element5 {
+    grid-area: grid-element5;
+}
+
+.grid-element6 {
+    grid-area: grid-element6;
+}
+
+.activities {
+    margin-top: 80px;
+    display: grid;
+    text-align: initial;
+    width: auto;
+    grid-template-areas: 'intro intro intro intro intro intro intro intro intro intro intro intro''grid-element1 grid-element1 grid-element1 grid-element2 grid-element2 grid-element2 grid-element4 grid-element4 grid-element4 grid-element5 grid-element5 grid-element5' 'grid-element1 grid-element1 grid-element1 grid-element2 grid-element2 grid-element2 grid-element4 grid-element4 grid-element4 grid-element5 grid-element5 grid-element5''grid-element1 grid-element1 grid-element1 grid-element3 grid-element3 grid-element3 grid-element4 grid-element4 grid-element4 grid-element6 grid-element6 grid-element6''grid-element1 grid-element1 grid-element1 grid-element3 grid-element3 grid-element3 grid-element4 grid-element4 grid-element4 grid-element6 grid-element6 grid-element6';
+    padding: 15px 0;
+    background-color: #5985d6;
+    justify-content: space-between;
+    grid-column-gap: 163px;
+    grid-row-gap: 2px;
+    height: 600px;
+}
+
+.activities-card {
     display: flex;
     flex-direction: column;
-    background-color: rgb(83, 71, 71);
-    height: 220px;
-    margin: 10px;
-    padding: 20px;
-    border-radius: 24px;
+    justify-content: space-around;
+    background-color: lightcoral;
+}
+
+.aimg-xlg {
+    flex: 1px;
+    max-height: none;
+    width: 100%;
+    border-radius: 24px 24px 0 0;
+}
+
+.aimg-lg {
+    width: 100%;
+    border-radius: 24px 24px 0 0;
+}
+
+.aimg-md {
+    width: 100%;
+    border-radius: 24px 24px 0 0;
+}
+
+.aimg-sm {
+    width: 100%;
+    border-radius: 24px 24px 0 0;
+}
+
+.ah3 {
+    background-color: lightseagreen;
+    flex: 0.1;
+}
+
+.footer {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #f0f8ff;
+    border-radius: 4px;
 }
