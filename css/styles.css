@@ -473,14 +473,14 @@
         
         #act1 {
             height: 500px;
-            background: url(/images/activites/2_large/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg);
+            background: url(.../images/activites/2_large/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg);
             background-size: cover;
             border-radius: 24px;
         }
         
         #act2 {
             height: 305px;
-            background: url(/images/activites/2_large/paul-hermann-QFTrLdQIRhI-unsplash.jpg);
+            background: url(.../images/activites/2_large/paul-hermann-QFTrLdQIRhI-unsplash.jpg);
             background-size: cover;
             background-position-y: 50%;
             border-radius: 24px;
@@ -488,28 +488,28 @@
         
         #act3 {
             height: 175px;
-            background: url(/images/activites/2_large/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg);
+            background: url(.../images/activites/2_large/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg);
             background-size: cover;
             border-radius: 24px;
         }
         
         #act4 {
             height: 500px;
-            background: url(/images/activites/2_large/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg);
+            background: url(.../images/activites/2_large/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg);
             background-size: cover;
             border-radius: 24px;
         }
         
         #act5 {
             height: 240px;
-            background: url(/images/activites/2_large/lena-paulin-wH2-EJoDcV0-unsplash.jpg);
+            background: url(.../images/activites/2_large/lena-paulin-wH2-EJoDcV0-unsplash.jpg);
             background-size: cover;
             border-radius: 24px;
         }
         
         #act6 {
             height: 240px;
-            background: url(/images/activites/2_large/florian-wehde-xW9e8gdotxI-unsplash.jpg);
+            background: url(.../images/activites/2_large/florian-wehde-xW9e8gdotxI-unsplash.jpg);
             background-size: cover;
             position: relative;
             bottom: 65px;
@@ -635,7 +635,7 @@
                 margin: 20px 20px 45px;
             }
             .accomodations-card-r {
-                width: auto;
+                width: 100%;
             }
         }
         
